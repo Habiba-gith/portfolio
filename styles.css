@@ -1,0 +1,149 @@
+:root{
+    --my-color: #3a6cf4;
+}
+header {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px ;
+}
+
+.logo{
+    text-decoration: none;
+    color: var(--my-color);
+    text-transform: uppercase;
+    font-weight: 700; 
+    font-size: 1.8em;
+}
+
+.navigation a{
+    --my-color: red;
+    color: var(--my-color);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.navigation a:hover{
+    color: #281751;
+}
+section {
+  padding: 100px 200px;
+    }
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(https://www.limestone.edu/sites/default/files/styles/news_preview_image/public/2022-03/computer-programmer.jpg?h=2d4b268f&itok=JOcIEe9u) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.main h2 {
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0050b3;
+    font-size: 3em;
+    font-weight: 600;
+}
+.main h3 {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.main-btn {
+    color: #fff;
+    background-color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+
+.main-btn:hover {
+    background-color: #0a49f6;
+    transform: scale(1.1);
+}
+.social-icons a {
+    color: #fff;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+
+
+
+
+.projects {
+    background-image: linear-gradient(blue, black);
+}
+
+.projects .content{
+    margin-top: 30px;
+}
+.project-card {
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.project-card:hover {
+   transform: scale(1.1);
+}
+
+.project-card:hover .project-image {
+    opacity: 0.9;
+ }
+ .project-image img{
+    width: 100%;
+}
+
+.project-info {
+    padding: 1em;
+}
+.project-category {
+    font-size: 0.8em;
+    color: #000;
+}
+
+.project-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.more-details {
+    text-decoration: none;
+    color: #3a6cf4;
+}
+.content{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap ;
+}
+.more-details:hover {
+    color: #601cfc;
+}
